@@ -29,7 +29,7 @@
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xHT-P3-FMR">
                                 <rect key="frame" x="15" y="146" width="345" height="29"/>
                                 <segments>
-                                    <segment title="First"/>
+                                    <segment title="Mega-Sena"/>
                                     <segment title="Quina"/>
                                 </segments>
                                 <color key="tintColor" red="0.16470588235294117" green="0.38823529411764707" blue="0.71764705882352942" alpha="1" colorSpace="calibratedRGB"/>
@@ -63,7 +63,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="gpv-1J-aJy">
                                         <rect key="frame" x="0.0" y="0.0" width="294" height="90"/>
                                         <subviews>
-                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsc-F7-BnS">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsc-F7-BnS">
                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
                                                 <state key="normal" title="60" backgroundImage="ball">
@@ -89,7 +89,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="CuW-FI-XoJ">
                                         <rect key="frame" x="0.0" y="106" width="294" height="90"/>
                                         <subviews>
-                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVU-pM-4G9">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVU-pM-4G9">
                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
                                                 <state key="normal" title="60" backgroundImage="ball">
@@ -117,22 +117,21 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="0cI-Kr-J3L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1EI-GV-XCM"/>
+                            <constraint firstItem="xHT-P3-FMR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="0Y9-Zn-Nrd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PRE-5g-zVr" secondAttribute="bottom" constant="536" id="7cP-33-Pv4"/>
-                            <constraint firstItem="0cI-Kr-J3L" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AVk-K3-j6Z"/>
-                            <constraint firstItem="0cI-Kr-J3L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EE0-4H-tub"/>
-                            <constraint firstItem="0cI-Kr-J3L" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GeI-hv-FnC"/>
                             <constraint firstItem="1g9-gr-UgS" firstAttribute="centerY" secondItem="PRE-5g-zVr" secondAttribute="centerY" id="MN9-SP-Y8O"/>
                             <constraint firstItem="ALm-ev-uYd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="NAa-od-Wwh"/>
-                            <constraint firstItem="0cI-Kr-J3L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pyq-jt-lBl"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xHT-P3-FMR" secondAttribute="trailing" constant="15" id="Rj1-ds-dIT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xHT-P3-FMR" secondAttribute="trailing" id="Rj1-ds-dIT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ALm-ev-uYd" secondAttribute="trailing" constant="15" id="SRT-Rf-1ma"/>
-                            <constraint firstItem="0cI-Kr-J3L" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dyq-8p-RaL"/>
-                            <constraint firstItem="xHT-P3-FMR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="eVq-qR-QTx"/>
+                            <constraint firstItem="0cI-Kr-J3L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YU4-rd-bzp"/>
+                            <constraint firstItem="xHT-P3-FMR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eVq-qR-QTx"/>
                             <constraint firstItem="xHT-P3-FMR" firstAttribute="top" secondItem="PRE-5g-zVr" secondAttribute="bottom" constant="15" id="ha2-xV-VsU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xHT-P3-FMR" secondAttribute="trailing" constant="15" id="j9u-Tp-9g6"/>
                             <constraint firstItem="1g9-gr-UgS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="jUN-QY-9fx"/>
                             <constraint firstItem="PRE-5g-zVr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kAV-Ar-9dh"/>
+                            <constraint firstItem="0cI-Kr-J3L" firstAttribute="top" secondItem="xHT-P3-FMR" secondAttribute="bottom" constant="61.5" id="kSR-NK-GUd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1g9-gr-UgS" secondAttribute="trailing" constant="15" id="nen-bv-1PQ"/>
+                            <constraint firstItem="xHT-P3-FMR" firstAttribute="top" secondItem="PRE-5g-zVr" secondAttribute="bottom" constant="15" id="tH7-2c-Gfc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ALm-ev-uYd" secondAttribute="bottom" constant="30" id="uBo-zT-Y5j"/>
                             <constraint firstAttribute="trailing" secondItem="PRE-5g-zVr" secondAttribute="trailing" id="yIT-wU-8Bd"/>
                         </constraints>
